@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+}
+
+.cabeçalho{
+    height: 8px;
+    background-color: #2dcc6f;
+}
+
+.banner{
+    background-size: cover;
+    width: 100%;
+}
+
+.hand{
+    position: absolute;
+    width: 27%;
+    left: 775px;
+    top: 97px;
+}
+
+.notify{
+        position: absolute;
+        font-family: 'Pacifico', cursive;
+        font-size: 35pt;
+        color: white;
+        left: 21%;
+        margin-top: -8%;
+    }
+
+    .text1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        color: white;
+        margin-left: 21%;
+        margin-top: -20%;
+    }
+
+    .text2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        color: white;
+        margin-top: -1%;
+        margin-left:21%;
+    }
+
+    .container{
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        position: absolute;
+        top: 85%;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .icone{
+        background-color: #2dcc6f;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .container3{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        top: 120%;
+        background-color: lightgray;
+        padding: 70px;
+        height: 190px;
+
+    }
+
+    button{
+        background-color: #2dcc6f;
+        color: white;
+
+    }
+
+    aside{
+        padding: 90px;
+    }
+
+    .video{
+
+    }
