@@ -28,6 +28,23 @@ body{
         margin-top: -8%;
     }
 
+    span{
+        color:  #2dcc6f;
+    }
+    
+    #logoapps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-left: 16%;
+    }
+
+    #logoapps img{
+        height: 30px;
+        width: 30px;
+    }
+
     .text1{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -50,7 +67,7 @@ body{
         font-family: 'Roboto', sans-serif;
         display: flex;
         position: absolute;
-        top: 85%;
+        top: 88%;
         justify-content: space-around;
         text-align: center;
     }
@@ -85,5 +102,105 @@ body{
     }
 
     .video{
-
+        margin-top: -26%;
+        margin-left: 18%;
+        border-radius: 50px;
     }
+
+    button{
+            background-color: lightgreen;
+            border: lightgreen solid;
+            border-radius: 0 15px 15px 0px;
+            color: white;
+            font-size: 10pt;
+            height: 45px;
+            width: 115px; 
+        }
+    
+        button:hover{
+            cursor: pointer;
+        }
+
+        .email{
+            border: white;
+            border-radius: 15px 0 0 15px;
+            height: 40px;
+            padding: 2px 20px;
+            width: 240px;
+        }
+    
+        .container4{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            position: absolute;
+            top: 170%;
+            padding: 30px;
+        }
+
+        .lorem{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 10pt;
+                font-style: oblique;
+                text-align: center;
+                text-decoration: none;
+                width: 150%;
+                color: grey;
+        }
+
+        .jane{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            text-decoration: none;
+            width: 150%;
+            font-size: 12pt;
+            font-weight: 700;
+        }
+
+    
+        .pessoa img{
+            height: 100%;
+        }
+
+        .fotos{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 50%;
+            margin-left: 360px;
+        }
+
+        .textfinal{
+            text-align: center;
+            margin-left: 400px; 
+        }
+        
+        .banana{
+            font-family: 'Roboto', sans-serif;
+            font-size: 12pt;
+            color: grey;
+        }
+
+        .morango{
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .footer{
+            background-color: lightgray;
+            position: absolute;
+            top: 220%;
+            padding: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+        }
+
+        .footer a{
+            color: gray;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12pt;
+            text-decoration: none; 
+        }
